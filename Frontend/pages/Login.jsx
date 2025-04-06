@@ -61,8 +61,13 @@ function Login() {
       <div className="d-flex align-items-center justify-content-center" style={{ height: '100%' }}  >
         <div className="col-lg-6 p-2 "  style={{ height: '92%', width: '50%'}} >
                 <div className="row d-flex flex-column align-items-center justify-content-center">
-                    <h1 className="site-title">Y%ia;%</h1>
-                    <h5 className="site-slogan">Unlocking Sign Language Proficiency with Shrasthra</h5>
+                    <img src={require('../images/SignLensLogo.png')} alt="SignLens" style={{
+                        width: '50%', 
+                        height: 'auto', 
+                        marginBottom: '10px',
+                        objectFit: 'contain'
+                    }}/>
+                    <h5 className="site-slogan">Unlocking Sign Language Proficiency with SignLens</h5>
                     
                     <img src={bg} style={{width:'60%'}} />
                 </div>

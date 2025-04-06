@@ -70,6 +70,7 @@ function VocalTraining() {
 
             formData.append('fileData', selectedFile);
             formData.append("label", selectedWord.label)
+            console.log(formData.get("label"))
 
             RestService.checkVoice(formData).then((res) => {
                 if(res.data.isValid){
