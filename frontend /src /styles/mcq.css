@@ -1,0 +1,148 @@
+.mcq_cardContainer {
+
+    /* padding: 10px 10px 10px 20px; */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 70vh;
+    background-color: rgb(249, 233, 226);
+    border-radius: 15px;
+    /* border: 3px solid #af2c00; */
+    border: 3px solid #2baffc;
+}
+
+.question_row {
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 90%;
+    height: max-content;
+    /* background-color: blue; */
+}
+
+.quesParagraph{
+
+    margin-top: 30px;
+}
+
+.paragraph {
+
+    text-align: justify;
+    /* font-weight: 500; */
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.answer_row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+
+    width: 20%;
+    height: 75%;
+    /* background-color: blue; */
+}
+
+.img-box{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(182, 182, 182);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.imgButton {
+
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    /* border-color: #af2c00; */
+    border-color: #2baffc;
+    border-radius: 7px;
+}
+
+.imgButton:hover{
+
+    /* border: 4px solid #af2c00; */
+    border: 4px solid #2baffc;
+}
+
+.img-ans{
+    width: 100%;
+    height: 100%;
+}
+
+.answerNo {
+
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.ansNo {
+
+    font-size: 15px;
+}
+
+.answerNo:hover{
+    
+    font-weight: bold;
+    color: rgb(42, 3, 3);
+}
+
+.pageNavBtn {
+
+    margin-top: 5px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-row {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnNav{
+    
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid white;
+    outline: rgb(137, 59, 59);
+    /* background-color: #af2c00; */
+    background-color: #2baffc;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnNav:hover{
+
+    /* background-color: #ff835a; */
+    background-color: #1b6c9b;
+    color: black;
+    /* border: 1px solid #ff835a; */
+    border: 1px solid #1b6c9b;
+    outline: none;
+}
+
+.hideButton{
+    display: none;
+}
