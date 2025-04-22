@@ -1,0 +1,84 @@
+.site-title {
+    /* font-family: 'SARA-SETH'; */
+    /* color: #c93200; */
+    color: #2baffc;
+    /* font-size: 8.5rem; */
+    font-size: 7rem;
+    text-align: center;
+    text-shadow: 5px 5px #000000;
+}
+
+.site-slogan {
+    font-weight: 500;
+    /* color: #c93200; */
+    color: #2baffc;
+    font-size: 1.2rem;
+    text-align: center;
+    /* border-bottom: #c93200 ; */
+    border-bottom: #2baffc ;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+
+.form-group {
+    margin-top: 2vh;
+}
+
+.form-group label {
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.login-card {
+    /* background-color: #c93200; */
+    background-color: #2baffc;
+    border-radius: 30px;
+}
+
+.login-card h2 {
+    color: white;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+
+.btn-login {
+    width: 120px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: larger;
+    /* color: #c93200; */
+    color: #2baffc;
+}
+
+.btn-login:hover {
+   /* background-color: #c93200; */
+   background-color: #2baffc;
+   color: white;
+   border: 2px solid white;
+}
+
+.custom-text {
+    color: white;
+}
+
+.custom-text a {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+.main-title {
+    /* font-family: 'SARA-SETH'; */
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
