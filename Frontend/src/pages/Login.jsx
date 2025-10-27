@@ -69,11 +69,11 @@ function Login() {
                     }}/>
                     <h5 className="site-slogan">Unlocking Sign Language Proficiency with SignLens</h5>
                     
-                    <img src={bg} style={{width:'60%'}} />
+                    <img src={bg} style={{width:'70%'}} />
                 </div>
 
             </div>
-        <div className="login-card col-lg-6 p-5 " style={{ height: '92%' }} >
+        <div className="login-card col-lg-6 p-5 " style={{ height: '90%' }} >
           <div className="d-flex align-items-center justify-content-center ">
             <h2>LOGIN</h2>
           </div>

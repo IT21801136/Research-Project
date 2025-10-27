@@ -1,0 +1,56 @@
+.video-box1 {
+    border-width: 3px;
+    /* border-color:#af2c00; */
+    border-color:#2baffc;
+    border-style: solid;
+    border-radius: 2vw;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.552), 0 10px 10px 0 rgba(0, 0, 0, 0.338); */
+    /* box-shadow: 0 1px 10px 0 rgba(66, 66, 66, 0.336), 0 6px 20px 0 rgba(100, 100, 100, 0.082); */
+    /* width: 40vw; */
+    height: 45vh;
+    width: 65vh;
+    align-items: center;
+    background-color: black;
+    background-image: url('../images/Skulls.jpg');
+}
+
+.custom-border {
+  border-width: 2px;
+    /* border-color:#af2c00; */
+    border-color:#2baffc;
+    border-style: solid;
+    border-radius: 1vw;
+}
+
+.aa {
+    align-items: end;
+}
+
+.card {
+    align-items: end;
+    width: 100%;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  section {
+    margin: 20px;
+  }
+  
+  input::-webkit-file-upload-button {
+    /* position: absolute; */
+    padding: 6px 15px;
+    background-color: rgb(230, 154, 78);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12);
+    transition: 100ms ease-out;
+    cursor: pointer;
+  }
+  
+  input::-webkit-file-upload-button:hover {
+    background-color: #9e8160;
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2), 0px 5px 8px 0px rgba(0,0,0,0.14), 0px 1px 14px 0px rgba(0,0,0,0.12)
+  }
