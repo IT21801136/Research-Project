@@ -1,10 +1,7 @@
 import axios from 'axios';
 
-//const FLASK_URL = "https://signlens-flask-backend.azurewebsites.net/";
-//const BACKEND_URL = "https://signlens-spring-backend.azurewebsites.net/ShrasthraBackendService/";
-
- const FLASK_URL = "http://127.0.0.1:3002/";
- const BACKEND_URL = "http://localhost:8885/SignLensBackendService/";
+const FLASK_URL = "http://127.0.0.1:3002/";
+const BACKEND_URL = "http://localhost:8885/SignlensBackendService/";
 
 class RestService {
 
