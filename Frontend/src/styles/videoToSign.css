@@ -1,0 +1,97 @@
+
+
+.video-box {
+    border-width: 2px;
+    /* border-color:#af2c00; */
+    border-color:#2baffc;
+    border-style: solid;
+    border-radius: 2vw;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.552), 0 10px 10px 0 rgba(0, 0, 0, 0.338); */
+    /* box-shadow: 0 1px 10px 0 rgba(66, 66, 66, 0.336), 0 6px 20px 0 rgba(100, 100, 100, 0.082); */
+    /* width: 40vw; */
+    height: 50vh;
+    background-color: black;
+    background-image: url('../images/Skulls.jpg');
+}
+
+.video-box-small {
+    border-width: 2px;
+    /* border-color:#af2c00; */
+    border-color:#2baffc;
+    border-style: solid;
+    border-radius: 2vw;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.552), 0 10px 10px 0 rgba(0, 0, 0, 0.338); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.336), 0 6px 20px 0 rgba(0, 0, 0, 0.082); */
+    /* box-shadow: 0 1px 10px 0 rgba(66, 66, 66, 0.336), 0 6px 20px 0 rgba(100, 100, 100, 0.082); */
+    height: 15vw;
+    width: 20vw;
+    background-image: url('../images/Skulls.jpg');
+    background-color: black;
+}
+
+
+.video-btn {
+    /* background-color: #ff835a; */
+    background-color: #5090b5;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 10vw;
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+}
+
+.video-btn:hover {
+    /* background-color: #af2c00; */
+    background-color: #2baffc;
+}
+
+
+.line {
+    /* border: 1px solid #af2c00; */
+    border: 1px solid #2baffc;
+    border-radius: 5px;
+    width: 70%;
+  }
+
+.line-light {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 70%;
+  }
+
+/* .small-card {
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 0 1px 10px 0 rgba(66, 66, 66, 0.336), 0 6px 20px 0 rgba(100, 100, 100, 0.082)
+} */
+
+
+
+.result {
+    /* background-image: url('../images/Wood.png'); */
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center-text-custom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .custom-card {
+    /* border: 2px solid #af2c00; */
+    /* background-color: #af2c00; */
+    background-color: #2baffc;
+    border-radius: 30px;
+    /* height: 9vh; */
+    height: 95%;
+    color: aliceblue;
+    border-width: 2px;
+    border-color:#ffffff;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.552), 0 10px 10px 0 rgba(0, 0, 0, 0.338);
+  }
