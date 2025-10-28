@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "SARA-SETH";
+    src: url(../fonts/SARA_SETH.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "FMAbayaBld";
+    src: url(../fonts/FMAbayaBld.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: "SQ";
+    src: url(../fonts/SQ.ttf) format('truetype');
+}
+
+.logo-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.logo-title img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-nav-link {
+    color: white;
+    margin: 4% 0;
+    font-size: 1.5vw;
+    font-weight: 700;
+    font-family: 'FMAbayaBld';
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 30px;
+    /* background-color: #c93200; */
+    background-color: #2baffc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.552), 0 10px 10px 0 rgba(0, 0, 0, 0.338);
+}
+
+.main-nav-link:hover {
+    /* background-color: #631900; */
+    background-color: #1b6c9b;
+    color: white;
+    border-radius: 30px;
+}
+
+.main-nav-link:focus {
+    /* background-color: #631900; */
+    background-color: #1b6c9b;
+    color: white;
+    border-radius: 30px;
+}
+
+.main-nav-link:active {
+    /* background-color: #631900; */
+    background-color: #1b6c9b;
+    color: white;
+    border-radius: 30px;
+}
+
+.active{
+    /* background-color: #631900; */
+    background-color: #1b6c9b;
+    color: white;
+    border-radius: 30px;
+}
+.user-btn {
+    color: white;
+    margin: 4% 0;
+    font-weight: bold;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 30px;
+    background-color: #c9320077;
+}
+
