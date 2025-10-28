@@ -1,0 +1,12 @@
+# Ignore git and IDE metadata
+.git
+.gitignore
+.vscode
+.idea
+
+# Maven outputs (we copy WAR explicitly if present)
+target/
+
+# OS/editor junk
+.DS_Store
+*.swp
