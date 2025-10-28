@@ -1,0 +1,49 @@
+version: "3.9"
+
+services:
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    image: signlens-frontend:dev
+    ports:
+      - "3000:80"  # Map host port 3000 to container port 80 (nginx)
+    depends_on:
+      - api
+      - ml
+    networks:
+      - signlens-net
+
+  api:
+    build:
+      context: ./SpringBootBackend
+      dockerfile: Dockerfile
+    image: signlens-api:dev
+    ports:
+      - "8885:8885"
+    depends_on:
+      - ml
+    networks:
+      - signlens-net
+
+  ml:
+    build:
+      context: ./FlaskBackend
+      dockerfile: Dockerfile
+    image: signlens-ml:dev
+    ports:
+      - "3002:3002"
+    environment:
+      - PORT=3002
+      - FLASK_ENV=production
+      - PYTHONUNBUFFERED=1
+      - TF_CPP_MIN_LOG_LEVEL=2
+    volumes:
+      - ./FlaskBackend/uploads:/app/uploads
+    networks:
+      - signlens-net
+    restart: unless-stopped
+
+networks:
+  signlens-net:
+    driver: bridge
