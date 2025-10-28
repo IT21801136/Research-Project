@@ -1,0 +1,20 @@
+# Exclude runtime/upload temp files
+uploads/
+
+# Python cache and build outputs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Jupyter artifacts
+*.ipynb_checkpoints/
+
+# VCS and OS junk
+.git
+.gitignore
+.DS_Store
+
+# Logs
+*.log
